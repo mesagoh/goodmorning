@@ -1,0 +1,57 @@
+.App {
+  min-width: 300px;
+  align-content: center;
+  text-align: center;
+}
+
+
+.Header-Text {
+  background-color: white;
+  min-height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: yellowgreen;
+}
+
+.Body-Picture {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  padding: 50px 50px;
+  border: solid black 3px;
+}
+
+.Footer-Credits {
+  display: flex;
+  bottom: 5px;
+  margin-left: 10px;
+  position: absolute;
+  font-style: italic;
+  font-size: 18px;
+  color: grey;
+
+}
+
+#websiteLink {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: pink;
+}
+
+#websiteLink:hover {
+  color: orange;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
