@@ -1,0 +1,13 @@
+.imageCredits {
+    display: block;
+    text-align: left;
+}
+
+#userLink {
+    color: grey;
+    font-style: italic;
+}
+
+#userLink:hover{
+    color: black;
+}

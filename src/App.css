@@ -5,7 +5,7 @@
 }
 
 
-.Header-Text {
+.header {
   background-color: white;
   min-height: 40px;
   display: flex;
@@ -18,15 +18,15 @@
   color: yellowgreen;
 }
 
-.Body-Picture {
+.body {
   display: inline-block;
   width: 400px;
   height: 400px;
-  padding: 50px 50px;
+  padding: 50px;
   border: solid black 3px;
 }
 
-.Footer-Credits {
+.footer {
   display: flex;
   bottom: 5px;
   margin-left: 10px;
