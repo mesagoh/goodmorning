@@ -9,13 +9,27 @@ const unsplash = new Unsplash({
 });
 
 class App extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       url: "",
       username: "",
       userlink: "",
-      searchKeyword: "china"
+      searchKeyword: "new year"
+    }
+  }
+
+  onClickHandler = () => {
+    if (navigator.share) {
+      navigator.canShare({
+        title: "mesa's page", 
+        url: 'https://mesagoh.github.io'
+      }).then(() => {
+        console.log("Thanks for sharing!");
+      })
+      .catch(console.error);
+    } else {
+      console.log("not shareable!");
     }
   }
 
@@ -40,7 +54,15 @@ class App extends Component {
           Good Morning POTD
         </header>
         <div className="body">
-          <img src={this.state.url} alt={this.state.searchKeyword}/>
+        <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share">
+
+          <img 
+          src={this.state.url} 
+          alt={this.state.searchKeyword} 
+          onClick={this.onClickHandler}
+          />
+        </a>
+
           <ImageCredits
             username={this.state.username}
             userlink={this.state.userlink}
