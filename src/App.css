@@ -14,25 +14,25 @@
   justify-content: top;
   padding-top: 50px;
   padding-bottom: 30px;
-  font-size: 30px;
+  font-size: 4vw;
   color: black;
 }
 
 .body {
   display: inline-block;
-  width: 400px;
-  height: 400px;
-  padding: 50px;
+  width: 60vw;
+  height: 60vw;
   border: solid black 3px;
+  padding: 5vh 5vh;
 }
+
 
 .footer {
   display: flex;
-  bottom: 5px;
-  margin-left: 10px;
   position: absolute;
-  font-style: italic;
-  font-size: 18px;
+  bottom: 0;
+  width: 100%;
+  font-size: 1.3vw;
   color: grey;
 
 }
@@ -45,6 +45,12 @@
 
 #websiteLink:hover {
   color: orange;
+}
+
+#goodMorningPotd {
+  width: 45vw;
+  height: 45vw;
+  padding: 3vw 3vw;
 }
 
 @keyframes App-logo-spin {

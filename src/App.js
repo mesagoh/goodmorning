@@ -54,13 +54,15 @@ class App extends Component {
           Good Morning POTD
         </header>
         <div className="body">
-        <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share">
+        {/* <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share"
+          src={this.state.url}> */}
 
           <img 
+          id="goodMorningPotd"
           src={this.state.url} 
           alt={this.state.searchKeyword} 
           />
-        </a>
+        {/* </a> */}
 
           <ImageCredits
             username={this.state.username}

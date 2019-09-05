@@ -1,6 +1,8 @@
 .imageCredits {
     display: block;
     text-align: left;
+    font-size: 2vw;
+    bottom: 0;
 }
 
 #userLink {
