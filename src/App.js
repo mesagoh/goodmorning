@@ -59,7 +59,6 @@ class App extends Component {
           <img 
           src={this.state.url} 
           alt={this.state.searchKeyword} 
-          onClick={this.onClickHandler}
           />
         </a>
 
