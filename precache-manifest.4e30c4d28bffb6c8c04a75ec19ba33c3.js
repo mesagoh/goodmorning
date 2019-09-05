@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd3766df5148042dbc2809a100ca3553",
+    "revision": "1549e8529522ffe832e2e5f5b4e31786",
     "url": "/goodmorning/index.html"
   },
   {
-    "revision": "129c941504529be2cafd",
+    "revision": "76f1e6e0d52f8134bf25",
     "url": "/goodmorning/static/css/main.d42bd93e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/goodmorning/static/js/2.aa68fc64.chunk.js"
   },
   {
-    "revision": "129c941504529be2cafd",
-    "url": "/goodmorning/static/js/main.e294c9a9.chunk.js"
+    "revision": "76f1e6e0d52f8134bf25",
+    "url": "/goodmorning/static/js/main.38b4177e.chunk.js"
   },
   {
     "revision": "3381ad11615979f60dfe",
