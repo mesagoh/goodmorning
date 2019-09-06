@@ -62,6 +62,15 @@
   align-self: center;
 }
 
+.textOnImg {
+  font-size: 3vw;
+  color:white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

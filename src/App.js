@@ -15,7 +15,8 @@ class App extends Component {
       url: "",
       username: "",
       userlink: "",
-      searchKeyword: "new year"
+      imageMsg: "Good Morning",
+      searchKeyword: "hello"
     }
   }
 
@@ -56,12 +57,14 @@ class App extends Component {
         <div className="body">
         {/* <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share"
           src={this.state.url}> */}
-
           <img 
           id="goodMorningPotd"
           src={this.state.url} 
           alt={this.state.searchKeyword} 
           />
+          <div className="textOnImg">
+            {this.state.imageMsg}
+          </div>
         {/* </a> */}
 
           <ImageCredits
